@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e28d7ec7b636741b8569f28c16e3a8, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  skillName: Fireball
+  isLocked: 0
+  canBeUnlocked: 1
+  requiredSkills:
+  - {fileID: 11400000, guid: 6b23ef24ab169bc4395f368902cd223a, type: 2}
+  icon: {fileID: 21300000, guid: 28a846e9bf5c2b94582c8552544e83ac, type: 3}
